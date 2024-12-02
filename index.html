@@ -89,12 +89,24 @@
         }
 
         .footer p:last-child {
-            font-family: 'Mountains of Christmas', cursive;
-            color: #666;
-            font-size: 1.2rem; /* Slightly larger to account for different font proportions */
-            font-weight: 700;
-            margin-top: 0.5rem;
-        }
+    font-family: 'Mountains of Christmas', cursive;
+    color: #666;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+/* New styles for the Twitter link */
+.twitter-link {
+    color: #666; /* Twitter's brand blue color */
+    text-decoration: none; /* Removes the default underline */
+    transition: color 0.3s ease; /* Smooth color transition for hover effect */
+}
+
+.twitter-link:hover {
+    color: #0f81cc; /* Slightly darker blue on hover */
+    text-decoration: underline; /* Adds underline on hover */
+}
 
         .loading {
             font-size: 1.5rem;
@@ -156,8 +168,8 @@
                         ) : null}
                     </div>
                     <footer className="footer">
-                        <p>Built this project, because I wasn't feeling motivated to work. Hope these quotes motivate me everyday</p>
-                        <p>Created by Shrey & Claude</p>
+    <p>Built this project, because I wasn't feeling motivated to work. Hope these quotes motivate me everyday</p>
+    <p>Created by <a href="https://twitter.com/_shreybhagat" className="twitter-link">Shrey</a> & Claude</p>
                     </footer>
                 </div>
             );
