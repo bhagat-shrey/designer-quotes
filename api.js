@@ -36,7 +36,9 @@ app.get('/api/quotes/:id', (req, res) => {
     }
 });
 
-const PORT = 3000;
-app.listen(PORT, () => {
-    console.log(`API Server is running on http://localhost:${PORT}`);
-});
+//const PORT = 3000;
+//app.listen(PORT, () => {
+  //  console.log(`API Server is running on http://localhost:${PORT}`);
+//});
+// Export the Express app
+module.exports = app;
