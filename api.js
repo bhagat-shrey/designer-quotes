@@ -7,7 +7,14 @@ app.use(cors());
 const quotes = [
     { id: 1, quote: "Design is intelligence made visible.", author: "Alina Wheeler" },
     { id: 2, quote: "Good design is obvious. Great design is transparent.", author: "Joe Sparano" },
-    { id: 3, quote: "Design creates culture. Culture shapes values. Values determine the future.", author: "Robert L. Peters" }
+    { id: 3, quote: "Design creates culture. Culture shapes values. Values determine the future.", author: "Robert L. Peters" },
+    { id: 4, quote: "Everything is designed. Few things are designed well", author: "Brian Reed" }
+    { id: 5, quote: "Design can be art. Design can be aesthetics. Design is so simple, that’s why it is so complicated.", author: "Paul Rand"}
+    { id: 6, quote: "Design is intelligence made visible.", author: "Alina Wheeler" },
+    { id: 7, quote: "Good design is obvious. Great design is transparent.", author: "Joe Sparano" },
+    { id: 8, quote: "Design creates culture. Culture shapes values. Values determine the future.", author: "Robert L. Peters" },
+    { id: 9, quote: "Everything is designed. Few things are designed well", author: "Brian Reed" }
+    { id: 10, quote: "Design can be art. Design can be aesthetics. Design is so simple, that’s why it is so complicated.", author: "Paul Rand"}
 ];
 
 // Fixed random quote endpoint
