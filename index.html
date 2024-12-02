@@ -101,16 +101,16 @@
             return (
                 <div className="quote-card">
                     <h1>Designer Quotes</h1>
-                    <button onClick={fetchQuote} disabled={isLoading}>
-                        {isLoading ? 'Loading...' : 'Get New Quote'}
-                    </button>
-                    {error && <p className="error">{error}</p>}
                     {quote && !error && (
                         <div>
                             <p className="quote-text">"{quote.quote}"</p>
                             <p className="author">— {quote.author}</p>
                         </div>
                     )}
+                    <button onClick={fetchQuote} disabled={isLoading}>
+                        {isLoading ? 'Loading...' : 'Get New Quote'}
+                    </button>
+                    {error && <p className="error">{error}</p>}
                 </div>
             );
         }
