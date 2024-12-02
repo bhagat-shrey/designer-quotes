@@ -70,8 +70,8 @@
                 setIsLoading(true);
                 setError(null);
                 try {
-                    // Using the random quote endpoint
-                    const response = await fetch('http://localhost:3000/api/quote/random');
+                    // Updated URL to use Vercel deployment
+                    const response = await fetch('https://designer-quotes-wheat.vercel.app/api/quote/random');
                     if (!response.ok) {
                         throw new Error('Failed to fetch quote');
                     }
@@ -79,7 +79,7 @@
                     setQuote(data);
                 } catch (error) {
                     console.error('Error fetching quote:', error);
-                    setError('Could not load quote. Make sure the API server is running.');
+                    setError('Could not load quote. Please try again later.');
                 } finally {
                     setIsLoading(false);
                 }
