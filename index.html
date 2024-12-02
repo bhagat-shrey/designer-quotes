@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Designer Quotes</title>
-    <link href="https://api.fontshare.com/v2/css?f[]=instrument-serif@400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:wght@400;500;600;700&family=Mountains+of+Christmas:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.development.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.development.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.5/babel.min.js"></script>
@@ -43,6 +44,7 @@
         }
 
         .quote-text {
+            font-family: 'Instrument Serif', serif;
             font-size: 4rem;
             line-height: 1.2;
             margin: 0 0 1rem 0;
@@ -50,6 +52,7 @@
         }
 
         .author {
+            font-family: 'Mountains of Christmas', cursive;
             font-size: 2rem;
             color: #333;
             margin: 1.5rem 0;
@@ -140,7 +143,7 @@
                         ) : null}
                     </div>
                     <footer className="footer">
-                        <p>Built thi project, because I wasn't feeling motivated to work. Hope these quotes motivate me everyday</p>
+                        <p>Built this project, because I wasn't feeling motivated to work. Hope these quotes motivate me everyday</p>
                         <p>Created by Shrey & Claude</p>
                     </footer>
                 </div>
