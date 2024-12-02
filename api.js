@@ -415,6 +415,7 @@ const quotes = [
     "id": 82,
     "quote": "Great things are not done by impulse, but a series of small things brought together.",
     "author": "Vincent
+  }
 ];
 
 // Fixed random quote endpoint
